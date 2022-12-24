@@ -1,0 +1,246 @@
+
+.topbar{
+    background: #5F5F5F;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+  topbar .contact-detail{
+    font-size:15px;
+    font-style: bold;
+  }
+  
+  .topbar .social{
+    margin-right: 20px;
+  }
+  
+  .topbar .social .social-icon{
+    color: #fff;
+    text-decoration: none;
+    font-size:15px;
+  }
+  
+  .social .facebook i:hover{
+    color: #3b5998;
+    /* border: 1px solid #fff; */
+    background:white;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .social .instagram i:hover{
+    color: rgb(150,47,191) ;
+    /* border: 1px solid #fff; */
+    background:white;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .social .twitter i:hover{
+    color: rgb(	29 161 242) ;
+    /* border: 1px solid #fff; */
+    background:white;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  
+  
+  .bd-container{
+    max-width: 960px;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  
+  /* ---------------------------------------------------
+  19. header 
+  -------------------------------------------------------------*/
+  .header{
+    width:100%;
+    background: white;
+    border-bottom: 2px solid #ff7d04;
+  }
+  .header-logo a img{
+    max-width: 350px;
+    max-height: 70px;
+  }
+  .header-menu{
+    margin: 20px 69px 0 0;
+  }
+  .header .menu-item{
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+  }
+  .header .menu-item > a{
+    display: block;
+  
+    padding:  0 10px;
+    font-weight: 600;
+    color: #202020;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: color 0.3s ease;
+  }
+  
+  .header .menu-item a::after{
+    content: "";
+    position: absolute;
+    background-color: #F56529;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+  
+  .header .menu-item a:hover:after{
+    width: 100%;
+  }
+  
+  .header .sub-menu-item a:hover,
+  .header .menu-item:hover > a{
+    color: #000;
+  }
+  .header .menu-item > a i{
+    font-size: 13px;
+    margin-left: 3px;
+    pointer-events: none;
+    transition: transform 0.3s ease;
+  }
+  .header .sub-menu{
+    position: absolute;
+    top: 100%;
+    background-color: rgba(248, 246, 246, 0.699);
+    left: 0;
+    width: 210px;
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px O hsla(0, 0%, 0%, 0.08);
+    transition: all 0.3s ease;
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    margin-top: 10px;
+  }
+  
+  @media (min-width: 992px) {
+    .header .menu-item:hover > .sub-menu{
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .header .sub-menu-item a{
+    display: block;
+    padding: 10px 20px;
+    color: #202020;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    border-bottom:1px solid rgb(252, 248, 248);
+  }
+  
+  .header .sub-menu-item a::after{
+    content: "";
+    position: absolute;
+    background-color: #F56529;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+    transition: 0.3s;
+  }
+  
+  
+  .header-backdrop,
+  .header-close-btn,
+  .header-hamburger-button {
+    display: none;
+  }
+  
+  .btn-theme{
+    position: absolute;
+    z-index: 1;
+    right: 3vh;
+    margin-top: 110px;
+    background-color:  #535251;
+    padding: 5px 25px ;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0px 0 15px 15px;
+  }
+  .btn-theme:hover{
+    background-color: #F56529;
+    color: #fff;
+  }
+
+  .top-con{
+    height: 83.8vh;
+    width: 100%;
+    /* margin-top: 11vh; */
+    background-image: linear-gradient(to left, rgba(255, 115, 0, 0.226), rgba(255, 115, 0, 0.199)), url("../img/work-bn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ic-size{
+    padding-top: 15vh;
+    font-size: 50px;
+}
+
+.txt-size{
+    font-size: 40px;
+    font-weight: 200   
+}
+.txt-size p{
+    margin-top: 2vh;
+    margin-bottom: 0;
+    margin-left: 21vh;
+    text-align: center;
+}
+
+.hd-size{
+    font-size: 35px;
+}
+
+.img-div{
+    width: 30rem;
+}
+.whole-div-i-t{
+    margin: 0 15vh;
+}
+
+
+.card{
+    min-height: 339px;
+    left: 0px;
+    background-color: #F56529;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px 0px;
+       }
+    figure{
+      padding-top: 100px;
+       }
+    blockquote p{
+      font-size: 26px;
+    }
+.btn{
+    font-weight: 600;
+    margin: 0 0vh 2vh -5vh;
+    border-radius: 0px 0 15px 15px;
+}
+    .qt-btn{
+        position: absolute;
+        background-color:  #ff8205;
+        padding: 5px 25px ;
+    }
