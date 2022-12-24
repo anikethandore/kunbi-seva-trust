@@ -234,7 +234,7 @@
     blockquote p{
       font-size: 26px;
     }
-.btn{
+.btn-1{
     font-weight: 600;
     margin: 0 0vh 2vh -5vh;
     border-radius: 0px 0 15px 15px;
@@ -244,3 +244,16 @@
         background-color:  #ff8205;
         padding: 5px 25px ;
     }
+
+.box{
+  height: 130px;
+  width: 80%;
+  background-color: #ff82056b;
+  border: 1px solid rgb(245, 104, 10);
+  border-radius: 20px 20px 0 0;
+}
+
+.count-txt h3{
+  font-size: 30px;
+  font-weight: 900;
+}
