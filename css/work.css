@@ -211,10 +211,14 @@
 
 .hd-size{
     font-size: 35px;
+    padding-top: 20px;
 }
 
 .img-div{
     width: 30rem;
+}
+.img-div:hover{
+  opacity: 1;
 }
 .whole-div-i-t{
     margin: 0 15vh;
@@ -239,10 +243,14 @@
     margin: 0 0vh 2vh -5vh;
     border-radius: 0px 0 15px 15px;
 }
-    .qt-btn{
-        position: absolute;
-        background-color:  #ff8205;
-        padding: 5px 25px ;
+.qt-btn{
+    position: absolute;
+    background-color:  #ff8205;
+    padding: 5px 25px ;
+    }
+.qt-btn:hover{
+   background-color: #F56529;
+  
     }
 
 .box{
@@ -252,8 +260,21 @@
   border: 1px solid rgb(245, 104, 10);
   border-radius: 20px 20px 0 0;
 }
-
 .count-txt h3{
   font-size: 30px;
   font-weight: 900;
 }
+
+
+.br-t{
+  width: 80%;
+  border: 1px solid #ff7d04;
+  margin: 25px 17vh;
+}
+
+.un-svg{
+  position: relative;
+  left: 47px;
+  bottom: 41px;
+}
+
